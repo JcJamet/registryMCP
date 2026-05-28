@@ -136,6 +136,25 @@
     ]
   },
   {
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.jcjamet/ia-qa",
+  "title": "IA-QA",
+  "description": "130+ real AI testing primitives: LLM evaluation, prompt testing, RAG pipeline QA, multimodal checks, and CI/CD-ready scoring — all callable via MCP. No signup, BYOK.",
+  "repository": {
+    "url": "https://github.com/JcJamet/ia_qa",
+    "source": "github"
+  },
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "transport": {
+        "type": "streamable-http",
+        "url": "https://ia-qa.com/mcp"
+      }
+    }
+  ]
+},
+  {
     "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
     "name": "io.github.domdomegg/time-mcp-pypi",
     "description": "Get the current UTC time in RFC 3339 format.",
